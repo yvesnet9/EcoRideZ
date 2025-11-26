@@ -250,3 +250,33 @@ Pages placeholders prêtes
 Routing opérationnel
 
 Code professionnel
+Excellent choix 👌
+On attaque US3 : Recherche de covoiturages, une étape clé de la logique métier d’EcoRideZ.
+
+🎯 Objectif de l’US3
+Sur la page Covoiturages, l’utilisateur (visiteur) doit pouvoir :
+
+Saisir une ville de départ
+
+Saisir une ville d’arrivée
+
+Saisir une date
+
+Soumettre le formulaire
+
+Voir une page listant les résultats (même si l’API backend n’existe pas encore)
+
+📌 Comme ton backend n’est pas encore disponible,
+👉 on commence par la structure front-end de la recherche, propre et professionnelle.
+🟢 US3 – Recherche de covoiturages est totalement fonctionnelle
+
+Tu as :
+
+✔ Formulaire de recherche
+✔ Envoi des données
+✔ Résultats simulés affichés
+✔ Carte de covoiturage
+✔ Bouton “Voir le trajet” prêt pour US5
+✔ Routing OK
+✔ Tailwind appliqué
+✔ Structure propre (components + pages)
