@@ -216,3 +216,37 @@ Tu as :
 ✔ une PR vers develop
 ✔ une structure conforme à l’ECF
 ✔ un vrai workflow professionnel
+🚀 US2 – Barre de navigation (Navbar)
+
+Utilisateur concerné : Visiteur + tous les autres rôles
+
+🟢 La Navbar doit permettre :
+
+Retour à l’accueil
+
+Accès aux covoiturages
+
+Connexion / inscription
+
+Contact
+
+(Plus tard) accès espace utilisateur, admin, employé
+
+🟢 Elle doit être visible sur toutes les pages
+🟢 Elle doit être simple, moderne, écolo
+🟢 En Tailwind (propre et responsive)
+🎉 US2 — Navbar complète EST TERMINÉE ✔
+
+Tu as :
+
+Navbar écolo et moderne
+
+Responsive (smartphone OK)
+
+Navigation entre pages
+
+Pages placeholders prêtes
+
+Routing opérationnel
+
+Code professionnel
