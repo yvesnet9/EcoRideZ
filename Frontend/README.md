@@ -147,3 +147,72 @@ En une seule étape, tu as maintenant :
 
 Enregistrement us1 dans git
 git init
+✅ 1. Assure-toi d’être dans ton projet
+
+Dans WSL :
+
+cd /mnt/c/Users/yves/Desktop/EcorideZ
+
+✅ 2. Initialise Git (si pas déjà fait)
+git init
+
+✅ 3. Crée les branches principales (main & develop)
+git checkout -b main
+git commit --allow-empty -m "Initial commit - EcoRideZ"
+git checkout -b develop
+
+
+📌 main = version stable / develop = version de travail
+Comme demandé dans l’énoncé.
+
+✅ 4. Créer la branche pour US1
+git checkout -b feature/US1-homepage
+
+✅ 5. Ajouter les fichiers que tu viens de créer (Home.jsx, Navbar.jsx, App.jsx...)
+
+Depuis la racine EcoRideZ/ :
+
+git add .
+
+
+⚠️ Vérifie qu’il n’y a pas de fichiers parasites avant d’ajouter tout (git status si besoin)
+
+✅ 6. Commit clair et propre pour US1
+git commit -m "US1 – Page d’accueil : présentation, images, barre de recherche, footer"
+
+✅ 7. Push de la branche US1 (si ton dépôt GitHub existe déjà)
+
+Si ton repo GitHub n'est pas encore créé → je peux t’aider à le faire.
+
+Sinon :
+
+git push origin feature/US1-homepage
+
+🟢 8. Crée une Pull Request vers la branche develop (sur GitHub)
+
+Dans GitHub :
+
+Va dans ton repo
+
+Clique sur Compare & Pull Request
+
+Base : develop
+
+Compare : feature/US1-homepage
+
+Titre PR :
+US1 — Implémentation de la page d’accueil
+
+Description :
+« Création de la page d’accueil : présentation EcoRideZ, images, formulaire de recherche, footer légal. »
+
+Puis Merge.
+
+🎉 US1 est maintenant enregistrée proprement dans ton projet Git !
+
+Tu as :
+✔ une branche dédiée
+✔ un commit propre
+✔ une PR vers develop
+✔ une structure conforme à l’ECF
+✔ un vrai workflow professionnel
